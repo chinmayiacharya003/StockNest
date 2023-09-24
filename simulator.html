@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>simulator</title>
+    <link rel="stylesheet" href="myStyle.css">
+    <script src="simulator.js" defer></script>
+</head>
+<body>
+    <nav class="nav-bar">
+        <div class="img">
+            <img src="images/stork.PNG" alt="strok" height="150px" width="160px" >
+           
+        </div>
+        
+        <div class="head">
+                <img src="images/StockNest (1).png" alt="logo" height="150px" width="350px">
+        </div> 
+        <div class="login-img">
+           <a href="index.html"><img src="images/login2.png" alt="login\n" height="150px" width="150px"></a> 
+            
+        </div>
+    </nav>
+        
+        <section class="main">
+            
+            <nav>
+                <div>
+                    <ul>
+                        <li><a href="myweb.html">Home</a></li>
+                        <li><a href="tutorials.html">Tutorials</a></li>
+                        <li><a href="real.html">Real Market</a></li>
+                        <li class="n-sim"><a href="simulator.html" style="color: white;">Simulator</a></li>
+                    </ul>
+                </div>
+            </nav>
+            </section>
+            
+    <section class="sim-page">
+        <div>
+            <table>
+                <tr>
+                    <th>Stocks</th>
+                    <th>Buying price</th>
+                    <th>Selling price</th>
+                    <th>Buy</th>
+                    <th>Sell</th>
+                </tr>
+                <tr>
+                    <td>Apple</td>
+                    <td>100</td>
+                    <td>60</td>
+                    <td><button class="buy" id="bAP">BUY</button></td>
+                    <td><button class="sell" id="sAP"> SELL</button></td>
+                </tr>
+                <tr>
+                    <td>Google</td>
+                    <td>90</td>
+                    <td>56</td>
+                    <td><button class="buy" id="bGL">BUY</button></td>
+                    <td><button class="sell" id="sGL">SELL</button></td>
+                </tr>
+                <tr>
+                    <td>Microsoft</td>
+                    <td>219</td>
+                    <td>95</td>
+                    <td><button class="buy" id="bMS">BUY</button></td>
+                    <td><button class="sell" id="sMS">SELL</button></td>
+                </tr>
+                <tr>
+                    <td>Infosys</td>
+                    <td>259</td>
+                    <td>130</td>
+                    <td><button class="buy" id="bIF">BUY</button></td>
+                    <td><button class="sell" id="sIF">SELL</button></td>
+                </tr>
+                <tr>
+                    <td>Pepsi</td>
+                    <td>334</td>
+                    <td>103</td>
+                    <td><button class="buy" id="bPP">BUY</button></td>
+                    <td><button class="sell" id="sPP">SELL</button></td>
+                </tr>
+                <tr>
+                    <td>Ford</td>
+                    <td>180</td>
+                    <td>67</td>
+                    <td><button class="buy" id="bFR">BUY</button></td>
+                    <td><button class="sell" id="dFR">SELL</button></td>
+                </tr>
+            </table>
+        </div>
+        <div class="portfolio">
+            
+            <h3>Portfolio</h3>
+           
+            This contains details about the stocks that you are holding.<br>Of course, this is a dummy portfolio. Try buying/selling from the dummy stocks given here. You'll see for yourself!!<br><br><br><br><br>
+            <div class="output"></div>
+            <div class="balance"></div>
+            
+        </div>
+        <img src="images/guideStork.png" height="230px" width="230px" class="portfolio-img">
+    </section>
+    
+</body>
+</html>

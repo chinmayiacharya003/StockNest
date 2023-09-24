@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #007bff;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+  }
+ /* .collapse-navbar-collapse{
+    display: flex;
+    align-items: center;} */
+ 
+ img{
+    display: inline-block;
+    align-self: flex-end;
+ }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+  }
+  
+  #stock-info {
+    margin-bottom: 20px;
+  }
+  
+  #stock-chart {
+    width: 100%;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #007bff;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  }

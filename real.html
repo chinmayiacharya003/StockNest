@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Market</title>
+    <link rel="stylesheet" href="myStyle.css">
+</head>
+<body>
+  <nav class="nav-bar">
+    <div class="img">
+        <img src="images/stork.PNG" alt="strok" height="150px" width="160px" >
+       
+    </div>
+    
+    <div class="head">
+            <img src="images/StockNest (1).png" alt="logo" height="150px" width="350px">
+    </div> 
+    <div class="login-img">
+       <a href="index.html"><img src="images/login2.png" alt="login\n" height="150px" width="150px"></a> 
+        
+    </div>
+</nav>
+        
+        <section class="main">
+            
+            <nav>
+                <div>
+                    <ul>
+                        <li><a href="myweb.html">Home</a></li>
+                        <li><a href="tutorials.html">Tutorials</a></li>
+                        <li class="n-real"><a href="real.html" style="color: white;">Real Market</a></li>
+                        <li><a href="simulator.html">Simulator</a></li>
+                    </ul>
+                </div>
+            </nav>
+            </section>
+            
+<!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+    <div class="tradingview-widget-container__widget"></div>
+    <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text"></span></a></div>
+    <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+    {
+    "symbols" [
+      {
+        "proName": "FOREXCOM:SPXUSD",
+        "title": "S&P 500"
+      },
+      {
+        "proName": "FOREXCOM:NSXUSD",
+        "title": "US 100"
+      },
+      {
+        "proName": "FX_IDC:EURUSD",
+        "title": "EUR to USD"
+      },
+      {
+        "proName": "BITSTAMP:BTCUSD",
+        "title": "Bitcoin"
+      },
+      {
+        "proName": "BITSTAMP:ETHUSD",
+        "title": "Ethereum"
+      }
+    ],
+    "showSymbolLogo": true,
+    "colorTheme": "light",
+    "isTransparent": false,
+    "displayMode": "adaptive",
+    "locale": "en"
+  }
+    </script>
+  </div>
+
+  <!-- TradingView Widget END -->
+  
+  <!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container2">
+  <h2>Here's a chart for you to analyse!</h2>
+  <div id="tradingview_c0cc3"></div>
+  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text"></span></a></div>
+  <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+  <script type="text/javascript">
+  new TradingView.widget(
+  {
+  // "autosize": true,
+  "symbol": "NASDAQ:AAPL",
+  "interval": "D",
+  "timezone": "Etc/UTC",
+  "theme": "light",
+  "style": "1",
+  "locale": "en",
+  "enable_publishing": false,
+  "allow_symbol_change": true,
+  "details": true,
+  "container_id": "tradingview_c0cc3"
+}
+  );
+  </script>
+</div>
+<!-- TradingView Widget END -->          
+    
+</html>

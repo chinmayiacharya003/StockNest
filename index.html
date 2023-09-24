@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="myStyle.css">
+   
+</head >
+<body style="padding-bottom: 100px;" class="login-page">
+    <nav class="nav-bar">
+        <div class="img">
+            <img src="images/stork.PNG" alt="strok" height="150px" width="160px" >
+           
+        </div>
+        
+        <div class="head">
+                <img src="images/StockNest (1).png" alt="logo" height="150px" width="350px">
+        </div> 
+        <div class="login-img">
+           <a href="index.html"><img src="images/login2.png" alt="login\n" height="150px" width="150px"></a> 
+            
+        </div>
+    </nav>
+        
+        <section class="main">
+            
+            <nav>
+                <div>
+                    <ul>
+                        <li ><a href="myweb.html";>Home</a></li>
+                        <li><a href="tutorials.html">Tutorials</a></li>
+                        <li><a href="real.html">Real Market</a></li>
+                        <li><a href="simulator.html">Simulator</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </section>
+    
+    <section class="login-sec">
+            <h1 class="log">Login here </h1>
+            
+            <form action="/login" method="get">
+
+                <p>
+                    <label>Username </label>
+                    <input type="text" name="username" id="username" placeholder="Username" >
+                </p>
+                <p>
+                    <label>Password </label>
+                    <input type="password" name="password" id="password" placeholder="Password" >
+                </p>
+                OR<br>
+            Create a new Account<br>
+            <button class="login-button" id="myButton" >SUBMIT</button>
+            
+            </form>
+       
+            <p id="message"></p>
+            
+       
+    </section>
+    <script src="login.js" ></script>
+
+</body>
+</html>

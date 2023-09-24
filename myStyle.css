@@ -1,0 +1,382 @@
+header{
+    background-color: white;
+}
+body{
+    min-height: 100vh;
+   
+}
+.head{
+    text-align: center;
+    
+    margin-left: 390px;
+    padding: 0;
+    position: relative;
+}
+.title{
+    font-family: cursive;
+    font-size: 58px;
+    color: rgb(52, 52, 245);
+   
+
+}
+.tag{
+    font-style: italic;
+    font-size: 20px;
+    padding: 0px;
+    margin-top: 0px;
+}
+ .bg{
+    position: relative;
+    height: 500px;
+    margin: 0;
+    padding-top: 150px;
+    padding-left: 30px;  
+    border-radius: 20px;
+    background-color: black;
+    
+}
+.bg::before{
+   
+    background-image: url(images/bg.webp);
+    background-size: cover;
+    content: '';
+    position: absolute;
+    inset: 0;
+   opacity: 0.3;
+}
+.nav-bar{
+    
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+    background: white;
+    margin: 0px;
+   
+    
+}
+.main{
+    background-color: aqua;
+        margin: 0;
+        padding: 0;
+    }
+
+ul{
+    list-style: none;
+    margin:0 ;
+    padding: 0;
+    text-align: center;
+    
+}
+li{
+    display: inline-block;
+    width: 100px;
+    color: white;
+    transition-duration: 0.3s;
+}
+li:hover{
+    transform: scale(1.2);
+}
+nav{
+    background-color: aqua;
+    padding: 10px;
+    margin: 0;
+    
+}
+h1{
+    color: aliceblue;
+    font-size: 60px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    isolation: isolate;
+    
+}
+h3{
+    color: whitesmoke;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    isolation: isolate;
+}
+.n-home,.n-tut,.n-real,.n-sim{
+    color: white;
+    font-size: 20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.quote{
+    color: white;
+    font-size: 28px;
+    font-style: italic;
+    font-family: cursive;
+    isolation: isolate;
+    margin-left: 300px;
+    margin-top: 100px;
+    padding: 10px;
+    border: 10px;
+    border-color: white;
+    border-radius: 10px;
+    
+}
+.quote,.luck{
+   
+    display: inline-block;
+}
+.login-page{
+    background-image:url(images/login-bg.jpg) ;
+    background-size: cover;
+    
+    position: relative;
+    margin-bottom: 200px;
+}
+.login-img{
+    margin-left: 390px;
+    transition-duration: 0.3s;
+    
+} 
+.login-img:hover{
+    transform: scale(1.2);
+}
+.login{
+    border-color:aqua ;
+    border: 10px;
+    border-radius:20px;
+    margin-left: 390px;
+}
+.login-sec{
+    height: 340px;
+    width: 320px;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color:black;
+    padding: 60px;
+    opacity: 0.7;
+    border-radius: 15px;
+    
+}
+
+.login-sec  input{
+    margin-bottom: 20px;
+    width: 100%;
+}
+.login-sec input[type="text"] ,input[type="password"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: white;
+    font-size: 16px;
+}
+.log{
+    font-size: 30px;
+    text-align: center;
+}
+.login-button{
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    border: none;
+    border-radius: 20px;
+    padding: 15px;
+    margin-left: 100px;
+}
+.images{
+    display: flex;
+    flex-direction: row;
+    padding: 100px;
+}
+.images div{
+    margin: 60px;
+    transition-duration: 0.3s;
+}
+.images div :hover{
+    transform: scale(1.2);
+}    
+.images div img{
+    border: 3px solid;
+    border-color: rgb(63, 97, 248);
+    padding: 20px;
+    border-radius: 30px;
+    
+    
+}
+
+
+.images div figcaption{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(45, 8, 116);
+    font-size: 26px;
+    font-style: italic;
+    
+}
+
+
+
+.login-sec div{
+    color: white;
+    font-size: 38px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 80px;
+}
+.hidden{
+    display: none;
+}
+.news-heading{
+    color: rgb(52, 52, 245);
+    font-style: italic;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 40px;
+}
+hr{
+    color: rgb(63, 63, 216);
+    border-top: 5px solid;
+    border-radius: 4px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+main{
+    padding: 20px;
+}
+.card-container{
+    display: flex;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+    row-gap: 20px;
+    align-items: start;
+    
+}
+.card{
+    width: 400px;
+    min-height: 200px;
+    box-shadow: 0 0 4px #d4ecff;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #fff;
+    overflow: hidden;
+    translate: all 0.3 ease;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+.card:hover{
+    box-shadow: 1px 1px 8px #d4ecff ;
+    background-color: rgb(226, 245, 245);
+    transform: translateY(-2px);
+}
+.card-header img{
+    width: 400px;
+    height: 230px;
+    object-fit: cover;
+}
+.card-content h3{
+    color: rgb(63, 63, 216);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 28px;
+}
+.card-content p{
+    color: rgb(23, 82, 209);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.card-content h6{
+    color: rgb(15, 6, 136);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+.tradingview-widget-container{
+    height: 1600px;
+}
+table{
+    border: none;
+    border-spacing: 28px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    
+    
+}
+th{
+    color: blue;
+}
+td{
+    color: rgb(7, 104, 168);
+}
+
+
+
+.buy{
+    color: green;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+.buy:hover{
+    transform: scale(1.2);
+}
+.sell{
+    color: red;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+    transition-duration: 0.3s;
+}
+.sell:hover{
+    transform: scale(1.2);
+}
+.sim-page{
+    display:flex;
+    margin-left: 30px;
+    margin-top: 40px;
+}
+.portfolio h3{
+    color: white;
+    background: linear-gradient(to bottom, rgb(6, 184, 238), rgb(11, 3, 122));
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.portfolio{
+    width: 300px;
+    color: rgb(21, 108, 148);
+    margin-left: 300px;
+    margin-top: 40px;
+    border: 3px solid;
+    border-color: rgb(9, 236, 206);
+    border-radius: 8px;
+    padding: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    
+}
+.portfolio-img{
+    /* margin-left: 40px; */
+    position: absolute;
+    margin-top: 290px;
+    right: 150px; /* Adjust the negative margin to overlap */
+    transform: translateY(-30%); /* Center vertically */
+    z-index: 1;
+}
+.tradingview-widget-container2{
+    width: 900px;
+    height: 700px;
+    margin-left: 300px;
+}
+h2{
+    color: rgb(34, 64, 199);
+    font-size:28px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    margin-left: 300x;
+}
+footer{
+    background-color: rgba(48, 45, 45, 0.87);
+    position: sticky;
+    top: 100%;
+    color: aliceblue;
+    padding: 10px;
+    text-align: end;
+}
